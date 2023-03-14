@@ -1,0 +1,20 @@
+<!-- jQuery Default Event Handler functions-->
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function()
+{
+$("a").click(function(event)
+{
+alert("Event Handler displayed");
+event.preventDefault(); // This is an Event Handler function that prevents the snippet to preceed the code to default
+});
+});
+</script>
+</head>
+<body>
+<h1>jQuery Event Handler PreventDefault()</h1>
+<p><a href="https://github.com/sandeepkasturi">SANDEEP KASTURI</a>An Example URL</p>
+</body>
+</html>
